@@ -11,6 +11,16 @@
         {{ message }}
     </div>
 
+    <div id="app-2">
+        <span v:bind:title = "message">
+            여기 위에 마우스를 올리면 동적으로 바인딩 된 title을 볼 수 있음!
+        </span>
+    </div>
+
+    <div id="app-3">
+        <p v-if = "seen">보기</p>
+    </div>
+
     <!-- script part -->
     <script src="./vue.js"></script>
 </body>
